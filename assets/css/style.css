@@ -19,6 +19,7 @@ body{
   width: 70%;
   margin: 0 auto;
 }
+
 /* contenitori e stili generici */
 a{
   text-decoration: none;
@@ -148,31 +149,6 @@ header .containerPulsante {
   padding: 30px 0;
 }
 
-/* ho aggiunto una classe pink-sectione e ho messo un colore  */
-.pink-section{
-  background-color: rgb(0, 0, 135);
-}
-
-/* ho creato un pink-contenuto, con un'altezza e larghezza*/
-.pink-contenuto{
-  background-color: rgb(239, 127, 234);
-  height: 300px;
-  width: 80%;
-  margin: 0 auto;
-}
-
-/* ho creato il contenitore grande e quello piccolo*/
-.contenitore-grande{
-  background-color: rgb(0, 142, 251);
-  height: 400px;
-  flex-grow: 2;
-}
-.contenitore-piccolo{
-  background-color: rgb(255, 190, 201);
-  flex-grow: 1;
-}
-
-/* ho fatto un'inversione e creato del colore*/
 .reverse{
   flex-direction: row-reverse;
 }
