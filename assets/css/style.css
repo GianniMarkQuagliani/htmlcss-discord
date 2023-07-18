@@ -23,9 +23,13 @@ body{
 /* contenitori e stili generici */
 a{
   text-decoration: none;
-  color: rgb(6, 16, 17);
+  color: white;
 }
 
+.btn a{
+  text-decoration: none;
+  color: rgb(35,39,42);
+}
 .container-btn a{
   color: rgb(35,39,42);
 }
@@ -76,7 +80,7 @@ nav {
   justify-content: space-between;
 }
 
-header .containerPulsante {
+header .container-btn {
   float: left;
   width: calc(100% / 3 - 50px);
   line-height: 37px;
@@ -92,17 +96,7 @@ header .containerPulsante {
   margin-right: 20px;
 }
 
-.button-app {
-  text-align: right;
-}
 
-.button-app{
-  background-color: white;
-  color: black;
-  padding: 10px 20px;
-  border-radius: 30px;
-  padding: 8px 16px;
-}
 /* /header section */
 
 /* pulsanti jumbotron */
@@ -189,10 +183,20 @@ main section{
 }
 
 /* footer  */
-footer{
-  background-color: rgb(40, 43, 46);
+.contenuto {
+  text-align: center;
 }
 
+.container2 .download {
+  background-color: #8ea1e1;
+  color: white;
+  font-size: 20px;
+}
+
+.container2 .btn2 {
+  text-align: center;
+  margin: 70px;
+}
 .cols{
   width: 25%;
 }
