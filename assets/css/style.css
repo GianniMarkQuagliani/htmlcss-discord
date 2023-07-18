@@ -165,6 +165,10 @@ main section{
   padding: 25% 0;
 }
 
+.container3{
+  float: left;
+}
+
 .container4 p{
   margin-top: 20px;
   font-size: 25px;
