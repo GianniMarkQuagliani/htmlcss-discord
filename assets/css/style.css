@@ -156,30 +156,32 @@ header .containerPulsante {
 
 
 /* sezioni main */
-.container4 {
-  float: right;
-  width: 25%;
+main section:nth-child(even){
+  background-color: rgb(238, 238, 238);
+}
+
+main section{
+  height: 100%;
+  padding: 25% 0;
+}
+
+.container4 p{
+  margin-top: 20px;
+  font-size: 25px;
 }
 
 .container2{
   font-size: 30px;
 }
 
-.container3{
-    float: left;
+/* img e testo invertiti */
+.reverse3{
+  float: right;
 }
 
-.reverse{
-  flex-direction: row-reverse;
-}
-
-.bg-grey{
-  background-color: rgb(210, 210, 210);
-}
-
-.green-contenuto{
-  background-color: rgb(35, 138, 49);
-  height: 800px;
+.reverse4{
+  float: left;
+  width:25%;
 }
 
 /* footer  */
