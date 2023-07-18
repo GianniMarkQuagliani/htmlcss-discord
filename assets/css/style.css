@@ -36,6 +36,16 @@ a{
   border-radius: 25px;
 }
 
+h1{
+  display: block;
+  font-weight: bold;
+ }
+
+ p{
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+}
 /* /contenitori e stili generici */
 
 /* header section */
@@ -121,6 +131,7 @@ header .containerPulsante {
   margin: 50px 0; 
 }
 
+/* pulsanti jumbotron */
 .center .container-btn{
   font-size: 25px;
   display: inline-block;
@@ -144,9 +155,18 @@ header .containerPulsante {
 }
 
 
-/* ho aggiunto una classe section, per definire lo spazio  */
-.section{
-  padding: 30px 0;
+/* sezioni main */
+.container4 {
+  float: right;
+  width: 25%;
+}
+
+.container2{
+  font-size: 30px;
+}
+
+.container3{
+    float: left;
 }
 
 .reverse{
