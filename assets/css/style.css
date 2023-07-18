@@ -15,10 +15,14 @@ body{
   clear: both;
 }
 
+.container{
+  width: 70%;
+  margin: 0 auto;
+}
 /* contenitori e stili generici */
 a{
   text-decoration: none;
-  color: white;
+  color: rgb(6, 16, 17);
 }
 
 .container-btn a{
@@ -54,13 +58,14 @@ nav li{
   width: calc(100% / 3 - 50px);
 }
 
+
 nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-header .container-btn{
+header .containerPulsante {
   float: left;
   width: calc(100% / 3 - 50px);
   line-height: 37px;
@@ -136,22 +141,7 @@ header .container-btn{
   background-color: rgb(35,39,42);
   color: white;
 }
-/* ho tolto la decorazione e aggiunto un colore  */
-a{
-  text-decoration: none;
-  color: rgb(6, 16, 17);
-}
 
-/* Ho fatto diventare le calssi nav, links e login, flessibili, il valore di justify-content è stato impostato su space-between per distanziare gli oggetti uniformemente sull'asse principale.  */
-.row{
-  display: flex;
-  justify-content: space-between;
-  
-}
-
-.row2{
-  display: flex;
-}
 
 /* ho aggiunto una classe section, per definire lo spazio  */
 .section{
