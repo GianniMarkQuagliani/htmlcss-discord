@@ -197,37 +197,3 @@ main section{
   text-align: center;
   margin: 70px;
 }
-.cols{
-  width: 25%;
-}
-
-.footer-contenuto{
-  padding-bottom: 20px;
-}
-
-.footer-grande{
-  background-color: rgb(14, 177, 169);
-  flex-grow: 2;
-  height: 600px;
-}
-.footer-piccolo{
-  background-color: rgb(242, 127, 127);
-  flex-grow: 1;
-}
-
-.horizontal-rule {
-  border-top: 1px solid rgb(255, 255, 255);
-  margin-bottom: 15px;
-}
-
-.end-footer{
-  background-color: rgb(121, 255, 213);
-  padding: 15px 0;
-}
-
-.logo-footer,
-.bottone-footer{
-  background-color: rgb(255, 180, 191);
-  padding: 5px;
-}
-
